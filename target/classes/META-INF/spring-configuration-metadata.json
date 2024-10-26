@@ -1,0 +1,135 @@
+{
+  "groups": [
+    {
+      "name": "cos.client",
+      "type": "com.clf.mianshiren.config.CosClientConfig",
+      "sourceType": "com.clf.mianshiren.config.CosClientConfig"
+    },
+    {
+      "name": "hotkey",
+      "type": "com.clf.mianshiren.config.HotKeyConfig",
+      "sourceType": "com.clf.mianshiren.config.HotKeyConfig"
+    },
+    {
+      "name": "spring.redis",
+      "type": "com.clf.mianshiren.config.RedissonConfig",
+      "sourceType": "com.clf.mianshiren.config.RedissonConfig"
+    },
+    {
+      "name": "wx.open",
+      "type": "com.clf.mianshiren.config.WxOpenConfig",
+      "sourceType": "com.clf.mianshiren.config.WxOpenConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "cos.client.access-key",
+      "type": "java.lang.String",
+      "description": "accessKey",
+      "sourceType": "com.clf.mianshiren.config.CosClientConfig"
+    },
+    {
+      "name": "cos.client.accessKey",
+      "type": "java.lang.String",
+      "description": "Description for cos.client.accessKey."
+    },
+    {
+      "name": "cos.client.bucket",
+      "type": "java.lang.String",
+      "description": "Description for cos.client.bucket.",
+      "sourceType": "com.clf.mianshiren.config.CosClientConfig"
+    },
+    {
+      "name": "cos.client.region",
+      "type": "java.lang.String",
+      "description": "Description for cos.client.region.",
+      "sourceType": "com.clf.mianshiren.config.CosClientConfig"
+    },
+    {
+      "name": "cos.client.secret-key",
+      "type": "java.lang.String",
+      "description": "secretKey",
+      "sourceType": "com.clf.mianshiren.config.CosClientConfig"
+    },
+    {
+      "name": "cos.client.secretKey",
+      "type": "java.lang.String",
+      "description": "Description for cos.client.secretKey."
+    },
+    {
+      "name": "hotkey.app-name",
+      "type": "java.lang.String",
+      "description": "应用名称",
+      "sourceType": "com.clf.mianshiren.config.HotKeyConfig"
+    },
+    {
+      "name": "hotkey.caffeine-size",
+      "type": "java.lang.Integer",
+      "description": "本地缓存最大数量",
+      "sourceType": "com.clf.mianshiren.config.HotKeyConfig"
+    },
+    {
+      "name": "hotkey.etcd-server",
+      "type": "java.lang.String",
+      "description": "Etcd 服务器完整地址",
+      "sourceType": "com.clf.mianshiren.config.HotKeyConfig"
+    },
+    {
+      "name": "hotkey.push-period",
+      "type": "java.lang.Long",
+      "description": "批量推送 key 的间隔时间",
+      "sourceType": "com.clf.mianshiren.config.HotKeyConfig"
+    },
+    {
+      "name": "spring.redis.database",
+      "type": "java.lang.Integer",
+      "sourceType": "com.clf.mianshiren.config.RedissonConfig"
+    },
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "com.clf.mianshiren.config.RedissonConfig"
+    },
+    {
+      "name": "spring.redis.password",
+      "type": "java.lang.String",
+      "sourceType": "com.clf.mianshiren.config.RedissonConfig"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.clf.mianshiren.config.RedissonConfig"
+    },
+    {
+      "name": "spring.redis.username",
+      "type": "java.lang.String",
+      "sourceType": "com.clf.mianshiren.config.RedissonConfig"
+    },
+    {
+      "name": "wx.open.app-id",
+      "type": "java.lang.String",
+      "sourceType": "com.clf.mianshiren.config.WxOpenConfig"
+    },
+    {
+      "name": "wx.open.app-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.clf.mianshiren.config.WxOpenConfig"
+    },
+    {
+      "name": "wx.open.appId",
+      "type": "java.lang.String",
+      "description": "Description for wx.open.appId."
+    },
+    {
+      "name": "wx.open.appSecret",
+      "type": "java.lang.String",
+      "description": "Description for wx.open.appSecret."
+    },
+    {
+      "name": "wx.open.wx-mp-service",
+      "type": "me.chanjar.weixin.mp.api.WxMpService",
+      "sourceType": "com.clf.mianshiren.config.WxOpenConfig"
+    }
+  ],
+  "hints": []
+}
